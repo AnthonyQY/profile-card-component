@@ -5,7 +5,11 @@ export default function Card() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <img className={styles.avatar} src={ImageAvatar.src} />
+        <img
+          className={styles.avatar}
+          src={ImageAvatar.src}
+          alt="An abstract header."
+        />
         <div className={styles.info}>
           <h1 className={styles.name}>
             Victor Crest <span className={styles.age}>26</span>
